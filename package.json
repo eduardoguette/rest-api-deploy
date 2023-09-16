@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "start": "node --watch app.js",
+    "start": "node app.js",
+    "start:dev": "node --watch app.js",
     "test": "standard"
   },
   "keywords": [],
