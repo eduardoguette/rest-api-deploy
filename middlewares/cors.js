@@ -3,7 +3,7 @@ const ACCEPTED_ORIGINS = [
   'http://localhost:8080',
   'http://localhost:3000',
   'http://localhost:56119',
-  'https://rest-api-deploy-cbm8-dev.fl0.io/'
+  'https://rest-api-deploy-cbm8-dev.fl0.io'
 ]
 export const corsMiddleware = (acceptedOrigins = ACCEPTED_ORIGINS) =>
   cors({
